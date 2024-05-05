@@ -1,0 +1,26 @@
+.label {
+    -fx-font-family: ArcadeClassic;
+    -fx-font-size: 25px;
+    -fx-text-fill: #FFFFFF;
+}
+
+         .button {-fx-background-color: linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)}
+         .button {
+            -fx-margin: 10px;
+            -fx-padding: 15px 45px;
+            -fx-text-align: center;
+            -fx-text-transform: uppercase;
+            -fx-transition: 0.5s;
+            -fx-background-size: 200% auto;
+            -fx-border-radius: 10px;
+            -fx-display: block;
+            -fx-font-family: ArcadeClassic;
+            -fx-text-fill: #FFFFFF;
+          }
+
+          .button:hover {
+            -fx-background-position: right center; /* change the direction of the change here */
+            -fx-color: #fff;
+            -fx-text-decoration: none;
+          }
+

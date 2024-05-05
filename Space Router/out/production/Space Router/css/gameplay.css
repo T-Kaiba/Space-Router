@@ -1,0 +1,18 @@
+.label {
+    -fx-font-family: ArcadeClassic;
+    -fx-font-size: 25px;
+}
+
+         .button {-fx-background-color: linear-gradient(to right, #FFC837 0%, #FF8008  51%, #FFC837  100%)}
+         .button {
+            -fx-margin: 10px;
+            -fx-padding: 15px 45px;
+            -fx-text-align: center;
+            -fx-text-transform: uppercase;
+            -fx-transition: 0.5s;
+            -fx-background-size: 200% auto;
+            -fx-color: white;
+            -fx-border-radius: 10px;
+            -fx-display: block;
+            -fx-font-family: ArcadeClassic;
+          }
